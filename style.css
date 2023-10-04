@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(116, 152, 116);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: #fff;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.ptop{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+    padding: 0 30%;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(51, 91, 51);
+}
+.pbtm{
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: rgb(51, 91, 51);
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.elem h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.box{
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 7px;
+    color: rgb(51, 91, 51);
+    font-size: 17px;
+    font-weight: 700;
+}
+.bubble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: rgb(85, 126, 85);
+}
+.bubble:hover{
+    background-color: rgb(51, 91, 51);
+    cursor: pointer;
+}
